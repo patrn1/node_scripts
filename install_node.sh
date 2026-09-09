@@ -6,9 +6,9 @@ mkdir node_install
 
 cd node_install
 
-wget https://nodejs.org/dist/v20.15.0/node-v20.15.0-linux-x64.tar.xz
+wget https://nodejs.org/dist/v22.23.2/node-v22.23.2-linux-x64.tar.xz
 
-tar -Jxvf node-v20.15.0-linux-x64.tar.xz
+tar -Jxvf node-v22.23.2-linux-x64.tar.xz
 
 mv -f node*/bin/* /usr/local/bin/
 
