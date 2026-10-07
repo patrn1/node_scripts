@@ -28,7 +28,9 @@ cd node_install
 
 wget https://nodejs.org/dist/v${version_install}/node-v${version_install}-linux-x64.tar.xz
 
-tar -Jxvf node-v${version_install}-linux-x64.tar.xz
+for f in *.tar.xz; do tar -Jxvf "$f"; done
+
+rm ./*.xz;
 
 #####
 #####
